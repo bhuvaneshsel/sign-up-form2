@@ -2,10 +2,26 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+:root {
+    --red: rgb(163, 1, 1);
 }
 
 body {
     display: flex;
+}
+
+h1, em {
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    width: 80%;
+    margin-bottom: 50px;
 }
 
 .left-column {
@@ -16,13 +32,48 @@ body {
 .right-column {
     flex: 2;
     border: 1px black solid;
+    padding: 150px 50px;
 }
 
 form > div {
     display: flex;
+    gap: 80px;
+    margin-bottom: 25px;
 }
 
 form > div > div {
     display:flex;
     flex-direction: column;
 }
+
+input {
+    height: 2rem;
+    width: 250px;
+    border: 1px solid rgb(223, 223, 223);
+    border-radius: 0.3rem;
+}
+
+label {
+    font-size: 0.9rem;
+}
+
+button {
+    margin-top: 50px;
+    margin-bottom: 40px;
+    background-color: var(--red);
+    height: 3rem;
+    width: 200px;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 3px 5px 8px 0px rgba(0,0,0,0.2);
+}
+
+.log-in {
+    color: var(--red);
+    font-weight: bold;
+}
+
