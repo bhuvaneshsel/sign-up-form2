@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+}
+
+.left-column {
+    flex: 1;
+    border: 1px black solid;
+}
+
+.right-column {
+    flex: 2;
+    border: 1px black solid;
+}
