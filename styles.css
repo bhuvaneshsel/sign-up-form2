@@ -7,6 +7,7 @@
 
 :root {
     --red: rgb(163, 1, 1);
+    --dark-red: rgb(116, 0, 0);
 }
 
 body {
@@ -91,6 +92,13 @@ button {
     box-shadow: 3px 5px 8px 0px rgba(0,0,0,0.2);
 }
 
+button:hover {
+    background-color: var(--dark-red);
+}
+
+a:hover {
+    color: var(--dark-red);
+}
 img[src="img/car.jpg"] {
     width: 100%;
     height: 100%;
